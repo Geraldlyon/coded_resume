@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.profile-details {
+    padding: 15px 0px 10px 0px;
+}
+
+.main-section-heading {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: grey;
+    display: inline-block;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.period {
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+}
+
+.role {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.company-name,
+.school-name {
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: rgba(128, 128, 128, 0.198);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.school-year {
+    position: relative;
+    top: 10px;
+}
+
+i {
+    border: 1px solid transparent;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.198);
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+    .country,
+    .phone-number {
+        font-size: 12px;
+    }
+
+    .phone-number {
+        /* margin-left: 2px; */
+        position: relative;
+        left: -5px;
+    }
+
+    .mail {
+        font-size: 12px;
+    }
+
+    .profile-intro-text {
+        font-size: 14px;
+    }
+
+}
